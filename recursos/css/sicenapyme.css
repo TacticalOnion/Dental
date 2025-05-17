@@ -1,0 +1,191 @@
+.encabezado {
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.btn-sy01 {
+    color: #fff;
+    background-color: #F07100;
+    border-color: #BD5900;
+}
+
+.btn-sy01:hover {
+    color: #F0F0F0;
+    background-color: #D16300;
+    border-color: #BD5900;
+}
+
+.table-home {
+    background: #fff;
+}
+
+.footer-pro {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+}
+
+.card-title {
+    color: orange;
+}
+
+.encabezado {
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.btn-sy01 {
+    color: #fff;
+    background-color: #F07100;
+    border-color: #BD5900;
+}
+
+.btn-sy01:hover {
+    color: #F0F0F0;
+    background-color: #D16300;
+    border-color: #BD5900;
+}
+
+.table-home {
+    background: #fff;
+}
+
+.footer-pro {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+}
+
+.card-title {
+    color: orange;
+}
+
+.btn-other {
+    color: #fff;
+    background-color: #FF8333;
+    border-color: #EC7629;
+  }
+  
+  .btn-other:hover {
+    color: #fff;
+    background-color: #EC7629;
+    border-color: #BD4D05;
+  }
+  
+  .btn-other:focus, .btn-other.focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+    box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+  }
+  
+  .btn-other.disabled, .btn-other:disabled {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+  }
+  
+  .btn-other:not(:disabled):not(.disabled):active, .btn-other:not(:disabled):not(.disabled).active,
+  .show > .btn-other.dropdown-toggle {
+    color: #fff;
+    background-color: #545b62;
+    border-color: #4e555b;
+  }
+  
+  .btn-other:not(:disabled):not(.disabled):active:focus, .btn-other:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-other.dropdown-toggle:focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+    box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+  }
+
+  .btn-rate {
+    color: #fff;
+    background-color: #5E29EC;
+    border-color: #4719C3;
+  }
+  
+  .btn-rate:hover {
+    color: #fff;
+    background-color: #3E13B2;
+    border-color: #4719C3;
+  }
+  
+  .btn-rate:focus, .btn-rate.focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+    box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+  }
+  
+  .btn-rate.disabled, .btn-rate:disabled {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+  }
+  
+  .btn-rate:not(:disabled):not(.disabled):active, .btn-rate:not(:disabled):not(.disabled).active,
+  .show > .btn-rate.dropdown-toggle {
+    color: #fff;
+    background-color: #545b62;
+    border-color: #4e555b;
+  }
+  
+  .btn-rate:not(:disabled):not(.disabled):active:focus, .btn-rate:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-rate.dropdown-toggle:focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+    box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+  }
+
+  .btn-min {
+    color: #fff;
+    background-color: #7254C2;
+    border-color: #7254C2;
+  }
+  
+  .btn-min:hover {
+    color: #fff;
+    background-color: #6A4FB2;
+    border-color: #6A4FB2;
+  }
+  
+  .btn-min:focus, .btn-min.focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+    box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+  }
+  
+  .btn-min.disabled, .btn-min:disabled {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+  }
+  
+  .btn-min:not(:disabled):not(.disabled):active, .btn-min:not(:disabled):not(.disabled).active,
+  .show > .btn-min.dropdown-toggle {
+    color: #fff;
+    background-color: #545b62;
+    border-color: #4e555b;
+  }
+  
+  .btn-min:not(:disabled):not(.disabled):active:focus, .btn-min:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-min.dropdown-toggle:focus {
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+    box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+  }
+
+  .vl {
+    border-left: 1px solid white;
+    height: 40px;
+    margin-left: 10px;
+    padding-right: 10px;
+  }
+
+  section {
+    min-height: 100%;
+  }
+
+  html, body {
+    height: 87.2%;
+    margin: 0;
+  }
