@@ -14,7 +14,7 @@
       </div>
 
       <div class="col center">
-        <button type="button" class="btn btn-primary" id="btn-registro-articulo">Agregar Artículo</button>
+        <button type="button" class="btn btn-dark" id="btn-registro-articulo">Agregar Artículo</button>
       </div>
       
       <div class="table-responsive">
@@ -47,9 +47,9 @@
                    <td><?php echo $articulo['arti_comentario_proveedor']; ?></td>
 	                 <td><?php echo $articulo['arti_disponibilidad']; ?></td>
 	                  <td>
-	                    <p ><a type="button" class="btn btn-primary btn-table" title="Actualizar" onclick="actualizarArticulo(<?php echo $articulo['arti_id_articulo'] ?>)">Editar</a></p>
-	                    <p><a type="button" class="btn btn-primary btn-table" title="Eliminar" onclick="eliminarArticulo(<?php echo $articulo['arti_id_articulo'] ?>, '<?php echo $articulo['arti_nombre'] ?>')">Eliminar</a></p>
-	                    <p><a type="button" class="btn btn-primary btn-table" title="Actualizar" onclick="consultarArticulo(<?php echo $articulo['arti_id_articulo'] ?>)">Detalle</a></p>
+	                    <p ><a type="button" class="btn btn-dark btn-table" title="Actualizar" onclick="actualizarArticulo(<?php echo $articulo['arti_id_articulo'] ?>)">Editar</a></p>
+	                    <p><a type="button" class="btn btn-dark btn-table" title="Eliminar" onclick="eliminarArticulo(<?php echo $articulo['arti_id_articulo'] ?>, '<?php echo $articulo['arti_nombre'] ?>')">Eliminar</a></p>
+	                    <p><a type="button" class="btn btn-dark btn-table" title="Actualizar" onclick="consultarArticulo(<?php echo $articulo['arti_id_articulo'] ?>)">Detalle</a></p>
 	                  </td>
                 </tr>
                 <?php } ?>

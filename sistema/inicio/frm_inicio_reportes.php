@@ -5,22 +5,22 @@
   <div id="carousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="../recursos/img/dent1.jpg" class="d-block w-100" alt="...">
+        <img src="../recursos/img/truck-1.jpeg" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="../recursos/img/dent2.jpg" class="d-block w-100" alt="...">
+        <img src="../recursos/img/truck-2.webp" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-      <img src="../recursos/img/dent3.jpg" class="d-block w-100" alt="...">
+      <img src="../recursos/img/truck-3.jpeg" class="d-block w-100" alt="...">
       </div>
 
       <div class="overlay">
         <div class="container">
           <div class="row">
             <div class="col-md-6 offset-md-6 text-justify">
-              <h1>Sistema de citas dentales</h1>
-              <p class="d-none d-md-block">Este sistema tiene como finalidad ayudar a Dental Health a llevar a cabo su cotrol de citas entre otros recursos que se manejan como son usuarios y proveedores.</p>
-              <a href="#" class="btn btn-outline-light">Administrar citas</a>
+              <h1>Corpositt</h1>
+              <p class="d-none d-md-block">Este sistema tiene como finalidad ayudar a llevar el registro y gestion de custodias.</p>
+              <a href="#" class="btn btn-outline-light">Administrar custodias</a>
             </div>
           </div>
         </div>
@@ -43,34 +43,44 @@
     <div class="row">
       <div class="col-md-4 mb-4">
         <div class="card">
-          <img class="card-img-top" src="../recursos/img/dent4.jpg" alt="Card image cap">
+          <img class="card-img-top" src="../recursos/img/client.webp" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Proveedores</h5>
-            <p class="card-text">Este módulo nos va a permitir administrar  los proveedores que tiene Dental Health.</p>
-            <button type="button" class="btn btn-primary">Ir al módulo</button>
+            <h5 class="card-title">Clientes</h5>
+            <p class="card-text">Este módulo nos va a permitir gestionar los clientes de Corpositt.</p>
+            <button type="button" class="btn btn-dark">Ir al módulo</button>
           </div>
         </div>
       </div>
 
       <div class="col-md-4 mb-4">
         <div class="card">
-          <img class="card-img-top" src="../recursos/img/dent5.jpg" alt="Card image cap">
+          <img class="card-img-top" src="../recursos/img/custodio.webp" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Artículos Dentales</h5>
-            <p class="card-text">Este módulo nos va a permitir adimistrar los articulos  con los que cuenta Dental Health.</p>
-            <button type="button" class="btn btn-primary">Ir al módulo</button>
+            <h5 class="card-title">Custodios</h5>
+            <p class="card-text">Este módulo nos va a permitir gestionar los custodios de Corpositt.</p>
+            <button type="button" class="btn btn-dark">Ir al módulo</button>
           </div>
         </div>
       </div>
 
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img class="card-img-top" src="../recursos/img/route.jpeg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Rutas</h5>
+            <p class="card-text">Este módulo nos va a permitir gestionar las rutas de Corpositt.</p>
+            <button type="button" class="btn btn-dark">Ir al módulo</button>
+          </div>
+        </div>
+      </div>
 
       <div class="col-md-4 mb-4">
         <div class="card">
-          <img class="card-img-top" src="../recursos/img/dent6.jpg" alt="Card image cap">
+          <img class="card-img-top" src="../recursos/img/truck-3.jpeg" alt="Card image cap">
           <div class="card-body">
-            <h5 class="card-title">Mobiliario</h5>
-            <p class="card-text">Este módulo nos va a permitir administrar el mobilirio que tiene Dental Health.</p>
-            <button type="button" class="btn btn-primary">Ir al módulo</button>
+            <h5 class="card-title">Autos</h5>
+            <p class="card-text">Este módulo nos va a permitir gestionar los autos de Corpositt.</p>
+            <button type="button" class="btn btn-dark">Ir al módulo</button>
           </div>
         </div>
       </div>
@@ -83,7 +93,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col pt-5">
-        <img src="../recursos/img/dent8.png" alt="">
+        <img src="../recursos/img/corpositt-sf-logo-blanco.svg" alt="">
       </div>
       <div class="col pt-5">
         <h2 class="mt-4">Tips</h2>

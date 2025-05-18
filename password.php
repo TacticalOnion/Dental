@@ -87,7 +87,7 @@
                 </div>
                 <div class="col-12 text-center">
                   <a href="index.php">
-                      <button type="button" class="btn btn-primary btn-footer">Regresar</button>
+                      <button type="button" class="btn btn-dark btn-footer">Regresar</button>
                   </a>
                 </div>
             </form>

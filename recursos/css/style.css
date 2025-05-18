@@ -6,25 +6,26 @@ body{
 
 
 #fondo{
-	 background-image: url("../img/fondo.jpg");
-	 height: 100%;
+	 background-image: url("../img/truck-3.jpeg");
+	 background-repeat: no-repeat;
+	 background-size: cover;
 
 }
 
 .bg-body-tertiary {
-    background-color: #c8d2ff !important;
+    background-color: #000000 !important;
 }
 
 .nav-link{
-	 color: #000000;
+	 color: #ffff;
 	 font-weight: 600;
 	 margin-right: 30px;
 	 padding: 10px;
 }
 
 .nav-link:hover{
-	background-color: #0053bf;
-	color: #fff;
+	background-color: #ffffff;
+	color: #000000;
 	border-top-left-radius:10px;
 }
 
@@ -57,8 +58,8 @@ body{
 
 
 #introduccion{
-	background-color: #c8d2ff;
-	color: #000;
+	background-color: #000000;
+	color: #ffffff;
 }
 #introduccion img{
 	max-width: 80%;

@@ -36,12 +36,12 @@
         <div class="container mt-5 pt-5 pb-5" id="cont-inicio">
           <div class="row">
             <div class="col pt-5 pb-5 center">
-              <img src="recursos/img/logo.png" alt="">
+              <img src="recursos/img/corpositt-sf-logo.svg" style="width: 400px;" alt="">
             </div>
 
             <div class="col pt-5">
               <div class="center">
-                <h3 class="mb-4" id="titulo-inicio"><b>Administrador DentalHealth</b></h3>
+                <h3 class="mb-4" id="titulo-inicio"><b>Administrador Corpositt</b></h3>
               </div>
               
 
@@ -61,7 +61,7 @@
               </div>
 
 
-                <button type="submit" class="btn btn-sy01 btn-block btn-primary" id="btn-inicio">Ingresar</button>
+                <button type="submit" class="btn btn-sy01 btn-block btn-dark" id="btn-inicio">Ingresar</button>
               </form>
             </div>
           </div>

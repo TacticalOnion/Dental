@@ -61,7 +61,7 @@
               </div>
 
 
-                <button type="submit" class="btn btn-sy01 btn-block btn-primary" id="btn-inicio">Ingresar</button>
+                <button type="submit" class="btn btn-sy01 btn-block btn-dark" id="btn-inicio">Ingresar</button>
               </form>
             </div>
           </div>

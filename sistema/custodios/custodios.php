@@ -1,6 +1,6 @@
 <?php
-  include('../../clases/BD.php'); // Conexión a la BD
-  include('../../clases/Custodio.php'); // Clase Custodio
+  include('../../clases/BD.php');
+  include('../../clases/Custodio.php');
 
   $obj_Custodio = new Custodio();
   $arr_custodio = $obj_Custodio->buscarTodos();
@@ -13,7 +13,7 @@
         <h3>Gestión de Custodios</h3>
       </div>
       <div class="col text-end">
-        <button type="button" class="btn btn-primary" id="btn-registrar-custodio">Agregar Custodio</button>
+        <button type="button" class="btn btn-dark" id="btn-registrar-custodio">Agregar Custodio</button>
       </div>
 
       <div class="table-responsive">
@@ -55,9 +55,9 @@
                 <td><?php echo $custodio['custodio_estado']; ?></td>
                 <td><?php echo $custodio['custodio_anios_experiencia']; ?></td>
                 <td>
-                  <p><a class="btn btn-primary btn-table" onclick="actualizarCustodio(<?php echo $custodio['custodio_id']; ?>)">Editar</a></p>
-                  <p><a class="btn btn-danger btn-table" onclick="eliminarCustodio(<?php echo $custodio['custodio_id']; ?>)">Eliminar</a></p>
-                  <p><a class="btn btn-info btn-table" onclick="consultarCustodio(<?php echo $custodio['custodio_id']; ?>)">Detalle</a></p>
+                  <p><a class="btn btn-dark btn-table" onclick="actualizarCustodio(<?php echo $custodio['custodio_id']; ?>)">Editar</a></p>
+                  <p><a class="btn btn-dark btn-table" onclick="eliminarCustodio(<?php echo $custodio['custodio_id']; ?>)">Eliminar</a></p>
+                  <p><a class="btn btn-dark btn-table" onclick="consultarCustodio(<?php echo $custodio['custodio_id']; ?>)">Detalle</a></p>
                 </td>
               </tr>
             <?php } ?>

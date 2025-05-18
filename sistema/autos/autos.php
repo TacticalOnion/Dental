@@ -1,9 +1,12 @@
  <?php
-  include('../../clases/BD.php'); /*Establece la conexion con la BD*/
-  include('../../clases/Auto.php'); /*Llama las funciones de la clase autos*/
+    include('../../clases/BD.php');
+    include('../../clases/Auto.php');
+    include('../../clases/Custodio.php');
 
-  $obj_Auto = new Auto();
-  $arr_auto = $obj_Auto->buscarTodos();
+    $obj_Auto = new Auto();
+    $arr_auto = $obj_Auto->buscarTodos();
+
+    $obj_Custodio = new Custodio();
 ?>
 
 
@@ -15,7 +18,7 @@
             </div>
 
             <div class="col center">
-                <button type="button" class="btn btn-primary" id="btn-registrar-auto">Agregar automovil</button>
+                <button type="button" class="btn btn-dark" id="btn-registrar-auto">Agregar automovil</button>
             </div>
 
             <div class="table-responsive">
@@ -30,11 +33,14 @@
                         <th><b>Placa</b></th>
                         <th><b>Percance</b></th>
                         <th><b>Disponibilidad</b></th>
-                        <th><b>ID Custodio</b></th>
+                        <th><b>Custodio</b></th>
                         </tr>
                     </thead>
                     <tbody>
-                        <?php foreach ($arr_auto as $auto) { ?>
+                        <?php foreach ($arr_auto as $auto) { 
+                            $custodio = $obj_Custodio->buscarCustodio($auto['auto_custodio_id']);
+                            $custodio_nombre = $custodio ? $custodio->custodio_nombre . ' ' . $custodio->custodio_apellido_paterno : '...';
+                        ?>
                         <tr>
                             <td><?php echo $auto['auto_id']; ?></td>
                             <td><?php echo $auto['auto_marca']; ?></td>
@@ -44,11 +50,11 @@
                             <td><?php echo $auto['auto_placa']; ?></td>
                             <td><?php echo $auto['auto_percance']; ?></td>
                         <td><?php echo $auto['auto_disponibilidad']; ?></td>
-                            <td><?php echo $auto['auto_custodio_id']; ?></td>
+                            <td><?php echo $custodio_nombre; ?></td>
                             <td>
-                                <p ><a type="button" class="btn btn-primary btn-table" title="Actualizar" onclick="actualizarAuto(<?php echo $auto['auto_id'] ?>)">Editar</a></p>
-                                <p><a type="button" class="btn btn-primary btn-table" title="Eliminar" onclick="eliminarAuto(<?php echo $auto['auto_id'] ?>)">Eliminar</a></p>
-                                <p><a type="button" class="btn btn-primary btn-table" title="Actualizar" onclick="consultarAuto(<?php echo $auto['auto_id'] ?>)">Detalle</a></p>
+                                <p ><a type="button" class="btn btn-dark btn-table" title="Actualizar" onclick="actualizarAuto(<?php echo $auto['auto_id'] ?>)">Editar</a></p>
+                                <p><a type="button" class="btn btn-dark btn-table" title="Eliminar" onclick="eliminarAuto(<?php echo $auto['auto_id'] ?>)">Eliminar</a></p>
+                                <p><a type="button" class="btn btn-dark btn-table" title="Actualizar" onclick="consultarAuto(<?php echo $auto['auto_id'] ?>)">Detalle</a></p>
                             </td>
                         </tr>
                         <?php } ?>

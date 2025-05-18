@@ -20,7 +20,7 @@ if ($_POST['dml'] == 'insert') {
     echo 1;
 
 } else if ($_POST['dml'] == 'update') {
-    $$id = $_POST['id'];
+    $id = $_POST['id'];
     $marca = $_POST['marca'];
     $tipo = $_POST['tipo'];
     $color = $_POST['color'];
@@ -30,7 +30,7 @@ if ($_POST['dml'] == 'insert') {
     $disponibilidad = $_POST['disponibilidad'];
     $custodio_id = $_POST['custodio_id'];
 
-    $obj_Auto->modificarAuto($$id, $marca, $tipo, $color, $anio, $placa, $percance, $disponibilidad, $custodio_id);
+    $obj_Auto->modificarAuto($id, $marca, $tipo, $color, $anio, $placa, $percance, $disponibilidad, $custodio_id);
     echo 1;
 
 } elseif ($_POST['dml'] == 'delete') {

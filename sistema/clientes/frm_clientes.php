@@ -65,7 +65,7 @@
               <input type="hidden" name="dml" value="update"/>
               <input type="hidden" name="id" value="<?php echo $_POST['id']; ?>"/>              
             <?php } else { ?>
-              <button type="button" class="btn btn-primary" id="btn-agregar-cliente">Enviar</button>
+              <button type="button" class="btn btn-dark" id="btn-agregar-cliente">Enviar</button>
               <input type="hidden" name="dml" value="insert"/>
             <?php } ?>
           </div>

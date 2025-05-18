@@ -1,6 +1,6 @@
 <?php
-  include('../../clases/BD.php'); /*Establece la conexion con la BD*/
-  include('../../clases/Ruta.php'); /*Llama las funciones de la clase rutas*/
+  include('../../clases/BD.php');
+  include('../../clases/Ruta.php');
 
   $obj_Ruta = new Ruta();
   $arr_ruta = $obj_Ruta->buscarTodos();
@@ -15,7 +15,7 @@
             </div>
 
             <div class="col center">
-                <button type="button" class="btn btn-primary" id="btn-registrar-ruta">Agregar ruta</button>
+                <button type="button" class="btn btn-dark" id="btn-registrar-ruta">Agregar ruta</button>
             </div>
 
             <div class="table-responsive">
@@ -43,9 +43,9 @@
                             <td><?php echo htmlspecialchars($ruta['ruta_tiempo_aproximado']); ?></td>
                             <td><?php echo htmlspecialchars($ruta['ruta_descripcion']); ?></td>
                             <td>
-                                <p><a type="button" class="btn btn-primary btn-table" title="Actualizar" onclick="actualizarRuta(<?php echo $ruta['ruta_id']; ?>)">Editar</a></p>
-                                <p><a type="button" class="btn btn-danger btn-table" title="Eliminar" onclick="eliminarRuta(<?php echo $ruta['ruta_id']; ?>)">Eliminar</a></p>
-                                <p><a type="button" class="btn btn-info btn-table" title="Detalle" onclick="consultarRuta(<?php echo $ruta['ruta_id']; ?>)">Detalle</a></p>
+                                <p><a type="button" class="btn btn-dark btn-table" title="Actualizar" onclick="actualizarRuta(<?php echo $ruta['ruta_id']; ?>)">Editar</a></p>
+                                <p><a type="button" class="btn btn-dark btn-table" title="Eliminar" onclick="eliminarRuta(<?php echo $ruta['ruta_id']; ?>)">Eliminar</a></p>
+                                <p><a type="button" class="btn btn-dark btn-table" title="Detalle" onclick="consultarRuta(<?php echo $ruta['ruta_id']; ?>)">Detalle</a></p>
                             </td>
                         </tr>
                         <?php } ?>
